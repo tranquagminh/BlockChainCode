@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_ID",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lName",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "_marks",
+						"type": "int256"
+					}
+				],
+				"name": "addNewRecords",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_bonus",
+						"type": "int256"
+					}
+				],
+				"name": "bonusMarks",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stdCount",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"name": "stdRecords",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "ID",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lName",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "marks",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/user.sol": "MarksManagmtSys"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/user.sol": {
+			"keccak256": "0xb9a7f12d1c9d78ad7b733524d16dc34f7366134714b15472fbab92c428382975",
+			"urls": [
+				"bzz-raw://dc07f64d42c96ef53cb196a1177e06ef50e85a9e337971acb4e40806f7e95d10",
+				"dweb:/ipfs/QmPkjMZWgRQPcujQGHYE222DAj3Z61RuWvrKtSH3pfm3K7"
+			]
+		}
+	},
+	"version": 1
+}
